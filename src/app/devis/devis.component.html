@@ -1,0 +1,153 @@
+<!--
+<table>
+  <tr>
+    <td>Catégorie A</td>
+  </tr>
+  <tr>
+
+    <table class="subcategories">
+      <tr>
+        <td class="sub">Sous-catégorie A1 <a class="btn red right"><i class="material-icons">delete</i></a></td>
+
+      </tr>
+      <tr>
+        <td class="sub">Sous-catégorie A2</td>
+      </tr>
+    </table>
+
+  </tr>
+</table>
+
+<br>
+
+<table>
+  Catégorie A
+
+    <table class="subcategories">
+      <tr>
+        <td class="sub">Sous-catégorie A1</td>
+
+      </tr>
+
+      <tr>
+        <td class="sub">Sous-catégorie A2</td>
+      </tr>
+    </table>
+
+  <table>
+      sous-catégorie A
+      <tr>
+        <td class="sub">Sous-catégorie A2</td>
+      </tr>
+    </table>
+
+
+</table>
+-->
+
+<h2>Première version :</h2>
+<h5>(Ajouter groupe, sous groupe et lignes, mauvaise manière)</h5>
+
+<a class="waves-effect waves-light btn-small" (click)="creerGroupeChiffrage()"><i class="material-icons left">add</i>Créer groupe de chiffrage</a>
+
+<div id="tableDevis">
+
+
+</div>
+
+
+<h2>Deuxième version :</h2>
+<h5>(finale, bonne manière, manque de temps)</h5>
+
+<a class="waves-effect waves-light btn-small" (click)="creerGroupeChiffrage2()"><i class="material-icons left">add</i>Créer groupe de chiffrage</a>
+
+<table >
+  <tr>
+    <th>Désignation</th>
+    <th>Qté</th>
+    <th>Unité</th>
+    <th>PU</th>
+    <th>Total</th>
+  </tr>
+
+  <tr>
+    <td>Groupe 1</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1500,00</td>
+    <td><a (click)="delete()" class="btn right"><i class="material-icons">delete</i></a></td>
+  </tr>
+
+  <tr>
+    <td class="sousGroupe">sous-catégorie</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1010,00</td>
+    <td><a (click)="delete()" class="btn right"><i class="material-icons">delete</i></a></td>
+  </tr>
+
+  <tr>
+    <td class="designation">- Radiateur</td>
+    <td><input value="10" type="number"></td>
+    <td><input value="pce" type="text"></td>
+    <td><input value="100" type="number"></td>
+    <td><input value="1000" type="number"></td>
+    <td><a (click)="delete()" class="btn right"><i class="material-icons">delete</i></a></td>
+  </tr>
+
+  <tr>
+    <td>Groupe 2</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1500,00</td>
+    <td><a (click)="delete()" class="btn right"><i class="material-icons">delete</i></a></td>
+  </tr>
+
+  <tr>
+    <td class="sousGroupe">sous-catégorie</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1010,00</td>
+    <td><a (click)="delete()" class="btn right"><i class="material-icons">delete</i></a></td>
+  </tr>
+
+  <tr>
+    <td class="designation">- Radiateur</td>
+    <td><input value="10" type="number"></td>
+    <td><input value="pce" type="text"></td>
+    <td><input value="100" type="number"></td>
+    <td><input value="1000" type="number"></td>
+    <td><a (click)="delete()" class="btn right"><i class="material-icons">delete</i></a></td>
+  </tr>
+
+
+</table>
+
+
+
+
+
+
+
+<!--<table>
+  <tr>
+    <td>Catégorie B</td>
+  </tr>
+  <tr>
+
+    <table class="subcategories">
+      <tr>
+        <td class="sub">Sous-catégorie B1</td>
+      </tr>
+      <tr>
+        <td class="sub">Sous-catégorie B2</td>
+      </tr>
+    </table>
+
+  </tr>
+</table>-->
+

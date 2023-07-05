@@ -1,0 +1,40 @@
+table {
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+td {
+  background-color: #dda0a0;
+
+}
+
+
+.subcategories {
+  margin-left: 20px;
+}
+
+input {
+  width: 100px;
+}
+
+.designation{
+  padding-left: 40px;
+  width: 60%;
+}
+
+.sousGroupe{
+  padding-left: 40px;
+}
+
+h5{
+  margin-bottom: 30px;
+}
+
+#tableDevis{
+  background-color: #f1f1f1;
+}
